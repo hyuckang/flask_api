@@ -1,5 +1,4 @@
-from flask import Flask, render_template
-import json
+from flask import Flask, render_template, jsonify
 app = Flask(__name__)
 
 '''
@@ -17,8 +16,7 @@ def hello_server():
 '''
 @app.route("/hello")
 def hello():
-    return jsonify({'response' : 'world'})
-    
+    return jsonify({"response" : "world"})
 
 '''
     host = 0.0.0.0를 하게되면 IP로 접근 가능하다.
