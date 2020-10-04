@@ -2,9 +2,13 @@
 
 flask_api is a simple API and was created to make setting up wsgi easy.
 
-If you use docker and ubuntu 16.04 and add python library, you can save it in libs and use it in run.py.
+This repository used docker and ubuntu 16.04, python3, flask.
+
+If you want to develop and add a Python library, you can save it in libs and call it from run.py.
 
 
+
+## useage
 
 Here are two ways to use flask_api.
 
