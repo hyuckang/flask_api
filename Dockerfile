@@ -4,7 +4,7 @@ LABEL maintainer="hyuckang15@gmail.com"
 
 RUN apt update && apt install apache2 -y \
 python3-pip \
-libapache2-mod-wsgi
+libapache2-mod-wsgi-py3 -y
 
 RUN pip3 install flask
 RUN a2enmod wsgi
