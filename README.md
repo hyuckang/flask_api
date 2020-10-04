@@ -8,7 +8,7 @@ If you want to develop and add a Python library, you can save it in libs and cal
 
 
 
-## useage
+## usage
 
 Here are two ways to use flask_api.
 
